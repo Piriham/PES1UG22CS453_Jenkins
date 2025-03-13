@@ -1,12 +1,11 @@
-// File: hello.cpp
-// This program prints greeting messages
 #include <iostream>
 using namespace std;
 
-int main(void) {
-    cout << "Hello, World\n";
-    cout << "Hello, Jenkins\n";
-    cout << "I have successfully built and run this \n";
+const string APP_NAME = "Jenkins Test";
+
+int main() {
+    cout << "Hello, World!\n";
+    cout << "Hello, Jenkins!\n";
+    cout << "The program has been built and executed successfully in " << APP_NAME << ".\n";
     return 0;
 }
-
